@@ -43,7 +43,7 @@ case({S,R})
 2'b00:q=q;
 2'b01:q=1'b0;
 2'b10:q=1'b1;
-2'b00:q=1'bx;
+2'b11:q=1'bx;
 endcase
 end
 end
@@ -77,7 +77,7 @@ endmodule
 ```
 #### SIMULATION OUTPUT
 
-<img width="1919" height="1196" alt="image" src="https://github.com/user-attachments/assets/97692bc9-1551-4846-95a6-0d52e134fba6" />
+<img width="1919" height="1199" alt="image" src="https://github.com/user-attachments/assets/c628cefb-1bd2-4062-899a-e0a77f563488" />
 
 ---
 
